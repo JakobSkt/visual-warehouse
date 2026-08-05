@@ -8,6 +8,6 @@
 </script>
 
 <div class="w-[120vw] h-[75vh] flex flex-row-reverse items-center justify-between bg-receive-500 p-2">
-    RECEIVE
+    span
 </div>
 

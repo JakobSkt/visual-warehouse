@@ -4,6 +4,7 @@
     import DetailedShelf from "$lib/components/DetailedShelf.svelte";
     import DoubleShelf from "$lib/components/DoubleShelf.svelte";
     import {onMount} from "svelte";
+    import { shortcuts } from "svelte-keyboard-shortcuts";
 
     let activeShelf = $state('A');
 
@@ -11,7 +12,7 @@
 
 </script>
 
-<div class="relative w-[120vw] h-[60vh] lg:w-[85vw] lg:h-[90vh] flex flex-row items-center justify-between bg-grey-700 overflow-hidden">
+<div use:shortcuts={{ keys: ['f'] }} class="relative w-[120vw] h-[60vh] lg:w-[85vw] lg:h-[90vh] flex flex-row items-center justify-between bg-grey-700 overflow-hidden">
     {#if isDesktop}
         {#if detailedShelfOpen}
             <DetailedShelf bind:open={detailedShelfOpen} shelfName={activeShelf} bind:detailedPalletOpen />

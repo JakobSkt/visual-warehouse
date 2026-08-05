@@ -1,7 +1,7 @@
 {
 	"name": "visual-warehouse",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.0.5",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -18,8 +18,12 @@
 		"@tailwindcss/vite": "^4.3.0",
 		"svelte": "^5.56.1",
 		"svelte-check": "^4.6.0",
+		"svelte-keyboard-shortcuts": "^0.0.2",
 		"tailwindcss": "^4.3.0",
 		"typescript": "^6.0.3",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"mode-watcher": "^1.1.0"
 	}
 }
