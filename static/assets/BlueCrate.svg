@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 69 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-213,-69)">
+        <g id="Blue-Crate" serif:id="Blue Crate">
+            <path d="M282,70.38L282,167.62C282,168.382 281.382,169 280.62,169L214.38,169C213.618,169 213,168.382 213,167.62L213,70.38C213,69.618 213.618,69 214.38,69L280.62,69C281.382,69 282,69.618 282,70.38Z" style="fill:rgb(0,152,255);"/>
+            <path d="M282,70.38L282,167.62C282,168.382 281.382,169 280.62,169L214.38,169C213.618,169 213,168.382 213,167.62L213,70.38C213,69.618 213.618,69 214.38,69L280.62,69C281.382,69 282,69.618 282,70.38ZM216,72L216,166L279,166L279,72L216,72Z" style="fill:rgb(0,102,255);"/>
+            <g transform="matrix(0.014493,0,0,0.12,276.913043,61.72)">
+                <rect x="213" y="69" width="69" height="100" style="fill:rgb(0,152,255);"/>
+            </g>
+            <g transform="matrix(0,-0.014493,0.12,0,260.72,74.086957)">
+                <rect x="213" y="69" width="69" height="100" style="fill:rgb(0,152,255);"/>
+            </g>
+            <g transform="matrix(-0.014493,0,-0,-0.12,218.086957,176.28)">
+                <rect x="213" y="69" width="69" height="100" style="fill:rgb(0,152,255);"/>
+            </g>
+            <g transform="matrix(0,0.014493,-0.12,0,234.28,163.913043)">
+                <rect x="213" y="69" width="69" height="100" style="fill:rgb(0,152,255);"/>
+            </g>
+        </g>
+    </g>
+</svg>

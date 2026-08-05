@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Recursive:wght@300..1000&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    /* Color design tokens */
+    --color-brand-500: #FFC300;
+    --color-brand-300: #FFD54D;
+    --color-brand-100: #FFE799;
+
+    --color-accent-500: #FF6600;
+    --color-accent-300: #FF944D;
+    --color-accent-100: #FFC299;
+
+    --color-grey-950: #121212;
+    --color-grey-900: #1D1D1D;
+    --color-grey-700: #383838;
+    --color-grey-500: #666666;
+    --color-grey-400: #BDBDBD;
+    --color-grey-300: #E9E9E9;
+    --color-grey-100: #FAFAFA;
+
+    --color-receive-700: #037C3A;
+    --color-receive-500: #05BB57;
+    --color-receive-300: #07F874;
+
+    --color-ship-700: #54037C;
+    --color-ship-500: #7F05BB;
+    --color-ship-300: #B11FF9;
+
+    --color-info-700: #006BB2;
+    --color-info-500: #008DEB;
+    --color-info-300: #4DB8FF;
+
+    --color-error-700: #D41215;
+    --color-error-500: #EF3E41;
+    --color-error-300: #F37274;
+
+    /* Font design tokens */
+    --font-title: 'Fraunces', sans-serif;
+    --font-title--font-variation-settings: "SOFT" 100, "wght" 700, "WONK" 1;
+
+    --font-numbers: 'Recursive', sans-serif;
+    --font-numbers--font-variation-settings: "slnt" 0, "wght" 600, "CASL" 0.5, "CRSV" 0.5, "MONO" 0;
+
+    --font-text: 'Recursive', sans-serif;
+    --font-text--font-variation-settings: "slnt" 0, "wght" 400, "CASL" 0.3, "CRSV" 0, "MONO" 0.35;
+
+    --text-h1: 3.815rem;
+    --text-h2: 3.052rem;
+    --text-h3: 2.441rem;
+    --text-h4: 1.953rem;
+    --text-h5: 1.563rem;
+    --text-h6: 1.25rem;
+    --text-p: 1rem;
+
+    /* Elevation design tokens */
+    --elevation-floor-sunken: #1D1D1D;
+    --elevation-floor-default: #383838;
+    --elevation-floor-raised: #666666;
+
+    --elevation-brand-default: #FFC300;
+    --elevation-brand-raised: #FFD54D;
+
+    --elevation-receive-sunken: #037C3A;
+    --elevation-receive-default: #05BB57;
+    --elevation-receive-raised: #07F874;
+
+    --elevation-ship-sunken: #54037C;
+    --elevation-ship-default: #7F05BB;
+    --elevation-ship-raised: #B11FF9;
+
+    --drop-shadow-floor: 0px 3px 4px 2px hsla(0, 0%, 8%, 25%);
+    --drop-shadow-color: 0px 3px 4px 2px hsla(0, 0%, 22%, 25%);
+
+    /* Borders design tokens */
+    --border-width-table: 1px;
+    --border-width-default: 2px;
+    --border-width-focus: 4px;
+
+    --border-floor-default: --color-grey-900;
+    --border-receive-default: --color-receive-700;
+    --border-ship-default: --color-ship-700;
+    --border-brand-default: --color-brand-500;
+    --border-item-hovered: --color-accent-300;
+    --border-item-selected: --color-accent-500;
+
+    --radius-small: 15px;
+    --radius-default: 25px;
+    --radius-large: 40px;
+}

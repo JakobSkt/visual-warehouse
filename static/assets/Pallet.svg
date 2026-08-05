@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 130 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-51,-69)">
+        <g id="Pallet">
+            <g transform="matrix(0,-0.757576,0.562771,0,12.168831,134.636364)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(210,160,75);"/>
+            </g>
+            <g transform="matrix(0,-0.757576,0.562771,0,12.168831,305.636364)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(210,160,75);"/>
+            </g>
+            <g transform="matrix(0,-0.757576,0.562771,0,12.168831,220.136364)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(210,160,75);"/>
+            </g>
+            <g transform="matrix(0.757576,0,0,0.865801,12.363636,9.25974)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(222,182,114);"/>
+            </g>
+            <g transform="matrix(0.757576,0,0,0.865801,47.363636,9.25974)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(222,182,114);"/>
+            </g>
+            <g transform="matrix(0.757576,0,0,0.865801,82.363636,9.25974)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(222,182,114);"/>
+            </g>
+            <g transform="matrix(0.757576,0,0,0.865801,117.363636,9.25974)">
+                <rect x="51" y="69" width="33" height="231" style="fill:rgb(222,182,114);"/>
+            </g>
+        </g>
+    </g>
+</svg>
