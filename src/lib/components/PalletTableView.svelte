@@ -72,7 +72,7 @@
 
 <div class="relative lg:absolute lg:bottom-[-2px] lg:left-0 w-full h-full lg:h-[50vh] lg:w-[50vw] lg:pl-8 lg:pt-8 lg:pb-8 flex flex-col lg:flex-row-reverse items-center lg:items-start justify-start bg-brand-500 dark:bg-grey-500 border-2 border-grey-900 rounded-default overflow-clip z-50"
      bind:this={containerElement}>
-    <div class="w-full lg:w-12 flex flex-row lg:flex-col items-center justify-between px-8 gap-2">
+    <div class="w-full lg:w-12 flex flex-row lg:flex-col items-center justify-end lg:justify-between lg:px-8 gap-2">
         <button class="m-0 p-0 flex flex-col float-right cursor-pointer group" aria-label="Close detailed pallet view"
                 onclick={() => open = false}>
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
@@ -118,7 +118,7 @@
     <table class="w-full h-full overflow-hidden lg:rounded-default">
         <thead class="bg-brand-100 dark:bg-grey-700">
         <tr>
-            <th class="relative">
+            <th class="relative h-4">
                 <button class="text-center" onclick={() => toggleSorting('qty')}> Qty </button>
                 {#if sortingActive && sortingColumn === 'qty'}
                     {#if sortingDirection === 'asc'}
@@ -128,7 +128,7 @@
                     {/if}
                 {/if}
             </th>
-            <th class="relative">
+            <th class="relative h-4">
                 <button class="text-center" onclick={() => toggleSorting('name')}> Name </button>
                 {#if sortingActive && sortingColumn === 'name'}
                     {#if sortingDirection === 'asc'}
@@ -138,7 +138,7 @@
                     {/if}
                 {/if}
             </th>
-            <th class="relative">
+            <th class="relative h-4">
                 <button class="text-center" onclick={() => toggleSorting('ean')}> EAN </button>
                 {#if sortingActive && sortingColumn === 'ean'}
                     {#if sortingDirection === 'asc'}
@@ -210,11 +210,11 @@
 
                         </div>
                     {:else}
-                        <button aria-label="Toggle item actions" onclick={openItemActionsPopup}>
+                        <button aria-label="Toggle item actions" onclick={openItemActionsPopup} class="cursor-pointer">
                             <svg id="popupTrigger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                                  stroke-linecap="round" stroke-linejoin="round"
-                                 class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical stroke-grey-700">
+                                 class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical stroke-grey-700 dark:stroke-grey-300">
                                 <circle cx="12" cy="12" r="1"/>
                                 <circle cx="12" cy="5" r="1"/>
                                 <circle cx="12" cy="19" r="1"/>
