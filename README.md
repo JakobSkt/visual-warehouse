@@ -3,7 +3,7 @@
 Everything that you need to organize your warehouse.<br>
 Now more engaging and visual than ever
 ### Demo
-https://visualwarehouse.vercel.app/
+https://visual-warehouse.vercel.app/
 
 ### Tested devices
 The prototype is developed and optimized for the following devices:
