@@ -44,3 +44,7 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+### Credits and Licenses
+* Icons with ISC Licence by [Lucide](https://lucide.dev/license)
+* Mode-watcher by [Svecosystem](https://github.com/svecosystem)
+* Svelte-keyboard-shortcuts by [Christopher Lai](https://github.com/lcmchris)
