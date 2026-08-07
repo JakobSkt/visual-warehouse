@@ -119,7 +119,7 @@
         <thead class="bg-brand-100 dark:bg-grey-700">
         <tr>
             <th class="relative h-4">
-                <button class="text-center" onclick={() => toggleSorting('qty')}> Qty </button>
+                <button class="text-center cursor-pointer" onclick={() => toggleSorting('qty')}> Qty </button>
                 {#if sortingActive && sortingColumn === 'qty'}
                     {#if sortingDirection === 'asc'}
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute top-4 right-2 lucide lucide-chevron-down-icon lucide-chevron-down stroke-grey-700 dark:stroke-grey-300"><path d="m6 9 6 6 6-6"/></svg>
@@ -129,7 +129,7 @@
                 {/if}
             </th>
             <th class="relative h-4">
-                <button class="text-center" onclick={() => toggleSorting('name')}> Name </button>
+                <button class="text-center cursor-pointer" onclick={() => toggleSorting('name')}> Name </button>
                 {#if sortingActive && sortingColumn === 'name'}
                     {#if sortingDirection === 'asc'}
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute top-4 right-2 lucide lucide-chevron-down-icon lucide-chevron-down stroke-grey-700 dark:stroke-grey-300"><path d="m6 9 6 6 6-6"/></svg>
@@ -139,7 +139,7 @@
                 {/if}
             </th>
             <th class="relative h-4">
-                <button class="text-center" onclick={() => toggleSorting('ean')}> EAN </button>
+                <button class="text-center cursor-pointer" onclick={() => toggleSorting('ean')}> EAN </button>
                 {#if sortingActive && sortingColumn === 'ean'}
                     {#if sortingDirection === 'asc'}
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute top-4 right-2 lucide lucide-chevron-down-icon lucide-chevron-down stroke-grey-700 dark:stroke-grey-300"><path d="m6 9 6 6 6-6"/></svg>
